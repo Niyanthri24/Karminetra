@@ -1,0 +1,40 @@
+{
+  "placeholderImages": [
+    {
+      "id": "pottery1",
+      "description": "A brown handcrafted pot",
+      "imageUrl": "/pot.png",
+      "imageHint": "pottery clay"
+    },
+    {
+      "id": "pottery2",
+      "description": "A set of small decorated vases",
+      "imageUrl": "/vase.png",
+      "imageHint": "pottery vase"
+    },
+    {
+      "id": "pottery3",
+      "description": "A large painted pot",
+      "imageUrl": "/urn.png",
+      "imageHint": "painted pot"
+    },
+    {
+      "id": "pottery4",
+      "description": "A simple clay cup",
+      "imageUrl": "/cup.png",
+      "imageHint": "clay cup"
+    },
+    {
+      "id": "pottery5",
+      "description": "An ornate ceramic bowl",
+      "imageUrl": "/ornate.png",
+      "imageHint": "ceramic bowl"
+    },
+    {
+      "id": "pottery6",
+      "description": "A collection of clay pots",
+      "imageUrl": "/vases.png",
+      "imageHint": "clay pots"
+    }
+  ]
+}

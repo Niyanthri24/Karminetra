@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 25 80% 95%; /* Light sandy brown */
+    --foreground: 25 20% 15%; /* Dark brown */
+    --card: 25 80% 95%;
+    --card-foreground: 25 20% 15%;
+    --popover: 25 80% 95%;
+    --popover-foreground: 25 20% 15%;
+    --primary: 25 60% 45%; /* Terracotta brown */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 35 45% 88%;
+    --secondary-foreground: 25 20% 15%;
+    --muted: 35 45% 88%;
+    --muted-foreground: 25 15% 45%;
+    --accent: 30 70% 60%; /* Saffron yellow */
+    --accent-foreground: 25 20% 10%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 25 60% 80%;
+    --input: 25 60% 90%;
+    --ring: 25 60% 45%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 25 20% 10%; /* Dark chocolate brown */
+    --foreground: 25 80% 95%; /* Light sandy brown */
+    --card: 25 20% 10%;
+    --card-foreground: 25 80% 95%;
+    --popover: 25 20% 10%;
+    --popover-foreground: 25 80% 95%;
+    --primary: 25 60% 55%; /* Lighter terracotta for dark mode */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 25 20% 20%;
+    --secondary-foreground: 25 80% 95%;
+    --muted: 25 20% 20%;
+    --muted-foreground: 25 20% 65%;
+    --accent: 30 70% 50%; /* Darker Saffron for dark mode */
+    --accent-foreground: 25 20% 10%;
+    --destructive: 0 60% 40%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 25 20% 30%;
+    --input: 25 20% 25%;
+    --ring: 25 60% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
