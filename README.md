@@ -44,6 +44,3 @@ Karminetra is an AI-powered mobile application designed to empower Indian artisa
     npm install
     npm start
     ```
-
-## 🛣️ Future Scope
-Our roadmap includes full order management with UPI integration, AI-driven demand insights for artisans, and a QR-based authenticity seal for products.
