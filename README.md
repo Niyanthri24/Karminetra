@@ -9,7 +9,7 @@ Karminetra is an AI-powered mobile application designed to empower Indian artisa
 ## Key Features
 
 * **AI-Powered Cataloguing:** Instantly generates a product title, description, keywords, and a fair market price from a single photo using the Gemini API.
-* **Voice-First Management:** Artisans can update stock, check orders, and manage their store using natural language voice commands via Dialogflow and the Speech-to-Text API.
+* **Voice-First Management:** Artisans can update stock, check orders and manage their store using natural language voice commands via Dialogflow and the Speech-to-Text API.
 * **Multilingual Support:** All generated content and UI elements are available in both English and the artisan's native language.
 * **Mini Digital Store:** Automatically creates a shareable, professional-looking store page with a QR code for easy sharing on WhatsApp and social media.
 
@@ -20,7 +20,7 @@ Karminetra is an AI-powered mobile application designed to empower Indian artisa
     * **Dialogflow CX & Speech-to-Text/Text-to-Speech:** For the conversational voice assistant.
     * **Google Translate API:** For real-time language translation.
 * **Backend & Infrastructure:**
-    * **Firebase:** For Authentication (Phone OTP), Firestore (Database), and Storage.
+    * **Firebase:** For Authentication (Phone OTP), Firestore (Database) and Storage.
     * **Cloud Functions:** For serverless backend logic.
 * **Frontend:**
     * **React & Tailwind CSS:** For a responsive, mobile-first user interface.
